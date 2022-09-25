@@ -1,5 +1,7 @@
 # Stress Tester
 
+My naive implementation of [`ab`](https://httpd.apache.org/docs/2.2/programs/ab.html`) in node.js
+
 This is a simple node script for stress testing an API. It will hammer the API on a single URL **x batches** of **x parallel requests**.
 
 A *batch* consists of *x* number of parallel requests. When all parallel requests are finished (successful or not) then the batch is finished.
